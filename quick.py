@@ -51,11 +51,11 @@ def bubble_sort(arr):
 
 # comparing the time it takes to sort a given list (bubble sort v quick sort)
 quick_start_time = time.time()
-print(quick_sort(sample3))
+print(quick_sort(sample1))
 quick_end_time = time.time()
 
 bubble_start_time = time.time()
-print(bubble_sort(sample3))
+print(bubble_sort(sample1))
 bubble_end_time = time.time()
 
 print('Quick Sort Time:', quick_end_time - quick_start_time)
